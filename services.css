@@ -1,0 +1,1622 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  height: auto;
+}
+/* .........................dropdown ..................*/
+.dropbtn {
+  color: rgb(255, 253, 253);
+  padding: 2vw;
+  font-size: 7vw;
+  border: none;
+}
+
+.dropdown {
+  width: 6vw;
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+
+  background-color: #6ba2f3;
+
+  min-width: 15vw;
+  height: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  font-size: 1.5vw;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  color: #faf9f9;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#hero {
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+}
+.head1 {
+  display: flex;
+  padding-left: 3vw;
+  margin-right: 9.5vw;
+  padding-top: 1vw;
+  margin-left: 3vw;
+}
+.head1 ul {
+  display: flex;
+}
+.head1 ul li {
+  padding-top: 1.3vw;
+  gap: 30px;
+  color: rgb(7, 29, 82);
+  padding-left: 3vw;
+  font-size: 1.5vw;
+}
+.head1 a {
+  text-decoration: none;
+  color: rgb(7, 29, 82);
+}
+.head1 p :hover {
+  color: #3c44b9;
+}
+li {
+  display: flex;
+}
+.head1 img {
+  padding-top: 0.5vw;
+  width: 12vw;
+  height: 6vh;
+}
+.head2 {
+  display: flex;
+  padding-left: 3vw;
+}
+.head2 img {
+  padding-top: 2vw;
+  width: 2vw;
+  height: 2vw;
+  padding-bottom: 2vw;
+  padding-right: 1vw;
+  border-right: 2px solid rgb(201, 196, 196);
+}
+.head2 h4 {
+  padding-top: 2vw;
+  padding-left: 2vw;
+
+  color: rgb(136, 160, 238);
+  font-size: 1.2vw;
+}
+.head3 {
+  padding-left: 2vw;
+  padding-top: 2vw;
+  padding-right: 2vw;
+  font-size: 1.3vw;
+  color: aliceblue;
+  margin-left: 4vw;
+  background-color: rgb(136, 160, 238);
+}
+.chkbtn {
+  display: none;
+}
+#poster {
+  background-image: url(images/single_blog_4.png.webp);
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+}
+#heading {
+  padding-top: 20vw;
+  padding-left: 8vw;
+}
+#heading h1 {
+  line-height: 1;
+  font-weight: 900;
+  font-size: 5vw;
+  color: white;
+}
+/* ..............................second................................ */
+
+#second {
+  height: auto;
+}
+#second button {
+  margin-top: 10vw;
+  border-radius: 20vw;
+  padding: 1vw 2vw;
+  margin-left: 44vw;
+  font-size: 1vw;
+  color: rgb(95, 131, 250);
+  background-color: #9fb8df;
+  border: none;
+}
+#second h1 {
+  padding-top: 3vw;
+  margin-left: 35vw;
+  font-size: 3vw;
+  color: rgb(30, 46, 99);
+}
+.cards {
+  display: flex;
+  padding: 3vw;
+
+  border-bottom: 2px solid rgb(201, 196, 196);
+}
+.card {
+  padding: 3vw;
+}
+.card img {
+  width: 8vw;
+  padding-bottom: 3vw;
+  padding-left: 8vw;
+}
+.card h3 {
+  color: rgb(30, 46, 99);
+  font-size: 2vw;
+  padding-bottom: 2vw;
+  justify-content: center;
+  text-align: center;
+}
+.card p {
+  line-height: 2vw;
+  color: rgb(90, 89, 89);
+  justify-content: center;
+  text-align: center;
+  font-size: 1.5vw;
+}
+/* ...................third..................... */
+#third {
+  height: auto;
+}
+#third button {
+  font-size: 2vw;
+  margin-top: 4vw;
+  border-radius: 20vw;
+  border: none;
+  padding: 1vw 2vw;
+  color: rgb(128, 148, 204);
+  margin-left: 40vw;
+}
+#third h1 {
+  padding-top: 3vw;
+  margin-left: 35vw;
+  font-size: 3vw;
+  color: rgb(30, 46, 99);
+}
+.pictures {
+  display: flex;
+  flex-direction: column;
+  margin: 4vw;
+  padding: 4vw;
+}
+.pic1 {
+  display: flex;
+}
+.pic1 img {
+  width: 40vw;
+}
+
+.pic2 {
+  margin-right: 2.9vw;
+  background-color: #6184f5;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.pic2 img {
+  width: 40vw;
+}
+
+.img2 {
+  background-color: rgb(142, 160, 236);
+  height: 100vh;
+  width: 40vw;
+}
+
+.pictures .piccard {
+}
+.piccard img {
+  width: 6vw;
+
+  margin-left: 16vw;
+  margin-top: 15vw;
+}
+.piccard h3 {
+  color: rgb(247, 248, 250);
+  font-size: 2vw;
+  margin-top: 3vw;
+  margin-left: 13vw;
+}
+.piccard p {
+  font-size: 1.5vw;
+  line-height: 1.8vw;
+  color: rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
+  padding-left: 8vw;
+  padding-top: 2vw;
+  padding-bottom: 7vw;
+}
+/* ...................................fourth............................................ */
+
+#fourth {
+  height: auto;
+  border-bottom: 2px solid rgb(201, 196, 196);
+  margin: 6vw;
+}
+#add {
+  display: flex;
+  margin-bottom: 5vw;
+  background-color: rgb(21, 20, 61);
+  height: 40vh;
+}
+#add h1 {
+  color: #fff;
+  padding-top: 5vw;
+  padding-left: 4vw;
+  font-size: 3vw;
+}
+#add p {
+  color: #fff;
+  padding-left: 4vw;
+  padding-top: 3vw;
+  font-size: 1.5vw;
+}
+#add button {
+  display: flex;
+  width: 18vw;
+  height: 5vw;
+  border-radius: 10vw;
+  margin-left: 20vw;
+  margin-top: 7vw;
+  background-color: rgb(142, 160, 236);
+  color: #fff;
+}
+#add button img {
+  padding-top: 1.5vw;
+  padding-left: 1.5vw;
+  width: 2vw;
+  height: 2vw;
+}
+#add button p {
+  padding: 2vw;
+  margin-bottom: 5vw;
+  font-size: 1.5vw;
+}
+
+/* ................................................slideshow.................................. */
+.istimg{
+  display: flex;
+  flex-direction: row;
+  padding-top: 3vw;
+  padding-left: 12vw;
+  padding-bottom: 1vw;
+  color: rgb(248, 184, 88);
+  font-size: 2vw;
+}
+.mySlides {
+  display: none;
+}
+.slideshow-container .mySlides img {
+  padding-left: 15vw;
+  padding-bottom: 1vw;
+}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: rgb(41, 40, 40);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(235, 235, 235, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+.slideshow-container p {
+  line-height: 2vw;
+  text-align: center;
+  font-size: 1.5vw;
+}
+
+/* ............................seven ................................ */
+#seven {
+  margin-top: 9vw;
+}
+#seven img {
+  width: 100%;
+}
+/* .........................................eight............................. */
+#eight {
+  height: auto;
+}
+#footer1 {
+  display: flex;
+  color: #5a5959e5;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 5vw;
+}
+#footer1 .foot input {
+  border: #2c2b2b;
+  padding: 1vw;
+  background-color: #2c2b2b;
+
+  text-decoration: none;
+}
+
+.foot {
+  padding: 5vw;
+  line-height: 3vw;
+}
+.foot img {
+  width: 10vw;
+}
+.foot h2 {
+  color: #242868;
+  font-size: 2vw;
+}
+.foot h1 {
+  color: #5e85cc;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  font-size: 2.2vw;
+}
+.foot p {
+  align-items: center;
+  font-size: 1.5vw;
+}
+.foot button {
+  margin-top: 2vw;
+  padding: 0.5vw;
+  border-radius: 2vw;
+  border: none;
+  color: #6184f5;
+  margin-right: 1vw;
+}
+.foot button i {
+  font-size: 1.5vw;
+}
+.foot button:hover {
+  background-color: #6184f5;
+  color: #fff;
+}
+#footer2 {
+  color: #5a5959e5;
+}
+#footer2 p {
+  /* position: absolute;
+
+bottom: -419vw; */
+
+  padding-left: 30vw;
+  font-size: 1.5vw;
+}
+#footer2 i {
+  width: 2vw;
+  height: 2vw;
+  background-color: #5e85cc;
+  border-radius: 2vw;
+  padding: 1vw;
+  font-size: 2vw;
+  color: #fff;
+  /* position: absolute;
+  bottom: -419vw;
+  right: 5.2vw; */
+}
+
+#footer2 #icons {
+  padding-left: 15vw;
+}
+#footer2 #icons i {
+  padding-left: 1vw;
+}
+.footing {
+  padding-top: 2vw;
+  background-image: url(images/company-bg.png.webp);
+  display: flex;
+  justify-content: space-between;
+  padding: 1vw;
+  background-position: center;
+
+  background-size: contain;
+}
+.footing i {
+  margin: 2vw;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+@media   (max-width: 575px){
+  .dropdown .dropbtn {
+    color: rgb(255, 253, 253);
+    padding-left: 4vw;
+    padding-right: 15vw;
+    font-size: 5vw;
+    padding-bottom: 1.5vw;
+  }
+  .dropdown :hover {
+    background-color: #8f8c8cd5;
+    width: 90vw;
+    padding-left: 0vw;
+    margin-left: 2vw;
+  }
+
+  .dropdown {
+    width: 90vw;
+    position: relative;
+    opacity: 1vw;
+    overflow: hidden;
+  }
+
+  .dropdown-content {
+    display: none;
+    font-size: 15vw;
+    background-color: #6ba2f3;
+    color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    opacity: 1vw;
+  }
+
+  .dropdown-content a {
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    color: #faf9f9;
+    display: none;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: none;
+  }
+
+  .head1 ul {
+    position: absolute;
+    flex-direction: column;
+    color: white;
+    top: 58px;
+    right: 0;
+    left: 0;
+    background-color: #717171;
+    gap: 0;
+  }
+  .head1 ul li {
+    overflow: hidden;
+  }
+  .head1 ul li a {
+    font-size: 5vw;
+    line-height: 8vw;
+    color: white;
+    padding-left: 2vw;
+  }
+  .head1 ul li a:hover {
+    background-color: #8f8c8cd5;
+    width: 90vw;
+    padding-left: 2vw;
+  }
+  .navIcon {
+    transition: all 0.5s;
+  }
+  .dropdown .dropdown-content {
+    display: none;
+  }
+  .chkbtn {
+    margin-left: 70vw;
+    margin-top: 3vw;
+    background-color: #2c2b2b;
+
+    display: block;
+    width: 20vw;
+    padding: 2vw;
+    color: white;
+  }
+
+  #hero {
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+  }
+  .head1 {
+    display: flex;
+    padding-left: 1vw;
+    margin-right: 9.5vw;
+    padding-top: 2vw;
+    margin-left: 3vw;
+  }
+  .head1 p {
+    padding-top: 1.3vw;
+    gap: 30px;
+    color: rgb(7, 29, 82);
+    padding-left: 3vw;
+    font-size: 1.5vw;
+    display: none;
+  }
+  .head1 a {
+    text-decoration: none;
+    color: rgb(7, 29, 82);
+  }
+  .head1 p :hover {
+    color: #3c44b9;
+  }
+  li {
+    display: flex;
+  }
+  .head1 img {
+    padding-top: 2vw;
+    padding-bottom: 3vw;
+    width: 100%;
+    height: 6vh;
+  }
+  .head2 {
+    display: flex;
+    padding-left: 3vw;
+  }
+  .head2 img {
+    padding-top: 2vw;
+    width: 2vw;
+    height: 2vw;
+    padding-bottom: 2vw;
+    padding-right: 1vw;
+    border-right: 2px solid rgb(201, 196, 196);
+    display: none;
+  }
+  .head2 h4 {
+    display: none;
+  }
+  .head3 {
+    display: none;
+  }
+  #poster {
+    background-image: url(images/single_blog_4.png.webp);
+    background-position: center;
+    background-size: cover;
+    height: 55vh;
+  }
+  #heading {
+    padding-top: 55vw;
+    padding-left: 8vw;
+  }
+  #heading h1 {
+    line-height: 1;
+    font-weight: 900;
+    font-size: 10vw;
+    color: white;
+  }
+  /* .....................second........................... */
+ #second {
+    height: auto;
+    padding-bottom: 3vw;
+  }
+  #second button {
+    margin-top: 20vw;
+    border-radius: 20vw;
+    padding: 2vw 4vw;
+    margin-left: 32vw;
+    font-size: 4vw;
+    color: rgb(95, 131, 250);
+    background-color: #9fb8df;
+    border: none;
+  }
+  #second h1 {
+    padding-top: 7vw;
+    margin-left: 17vw;
+    margin-bottom: 5vw;
+    font-size: 7vw;
+    color: rgb(30, 46, 99);
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    padding: 3vw;
+
+    border-bottom: 2px solid rgb(201, 196, 196);
+  }
+  .card {
+    padding: 3vw;
+  }
+  .card img {
+    width: 30vw;
+    padding-bottom: 5vw;
+    padding-left: 25vw;
+  }
+  .card h3 {
+    color: rgb(30, 46, 99);
+    font-size: 7vw;
+    padding-bottom: 5vw;
+    justify-content: center;
+    text-align: center;
+  }
+  .card p {
+    line-height: 7vw;
+    color: rgb(90, 89, 89);
+    justify-content: center;
+    text-align: center;
+    font-size: 5vw;
+    padding-bottom: 3vw;
+  }
+  /* ..............................third............................... */
+  #third {
+    height: auto;
+  }
+  #third button {
+    font-size: 5vw;
+    margin-top: 10vw;
+    border-radius: 20vw;
+    border: none;
+    padding: vw 2vw;
+    color: rgb(128, 148, 204);
+    margin-left: 35vw;
+  }
+  #third h1 {
+    padding-top: 6vw;
+    padding-bottom: 10vw;
+    margin-left: 25vw;
+    font-size: 6vw;
+    color: rgb(30, 46, 99);
+  }
+  .pictures {
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2vw;
+    padding: 2vw;
+  }
+  .pic1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .pic1 img {
+    width: 90vw;
+  }
+
+  .pic2 {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .pic2 img {
+    width: 90vw;
+  }
+
+  .img2 {
+
+    background-color: rgb(142, 160, 236);
+    height: auto;
+    width: 90vw;
+  }
+
+  .pictures .piccard {
+    
+  }
+  .piccard img {
+    width: 25vw;
+
+    margin-left: 30vw;
+  }
+  .piccard h3 {
+    color: rgb(247, 248, 250);
+    font-size: 8vw;
+    margin-top: 3vw;
+    margin-left: 18vw;
+  }
+  .piccard p {
+     font-size: 4.5vw;
+    line-height: 7vw;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    padding-left: 3vw;
+ 
+    padding-top: 4vw;
+    padding-bottom: 8vw;
+  }
+
+  /* ..........................fourth............................. */
+  #fourth {
+    height: auto;
+
+    border-bottom: 2px solid rgb(201, 196, 196);
+  margin: 4vw;
+    
+  }
+  #add {
+  width: 90vw;
+    padding-left: 0vw;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10vw;
+    background-color: rgb(21, 20, 61);
+    height: auto;
+  }
+  #add h1 {
+    color: #fff;
+    padding-top: 30vw;
+    padding-left: 7vw;
+   
+    font-size: 10vw;
+  }
+  #add p {
+    color: #fff;
+    padding-left: 7vw;
+    padding-top: 5vw;
+    font-size: 6vw;
+  }
+  #add button {
+    display: flex;
+    padding: 2vw;
+    height: 15vw;
+    width: 50vw;
+    border-radius: 10vw;
+    margin-left: 5vw;
+    margin-top: 9vw;
+    margin-bottom: 15vw;
+    background-color: rgb(128, 148, 236);
+    color: #fff;
+   
+  }
+  #add button img {
+    width: 7vw;
+    height: 7vw;
+    color: rgb(190, 195, 202);
+  }
+  #add button p {
+    align-items: center;
+    font-size: 5vw;
+  }
+  
+  /* ................................................slideshow.................................. */
+.istimg{
+  display:flex;
+  flex-direction:row;
+  padding-top: 5vw;
+  padding-left: 30vw;
+  padding-bottom: 1vw;
+  color: rgb(248, 184, 88);
+  font-size: 5vw;
+}
+  .mySlides {
+    display: none;
+  }
+ .slideshow-container .mySlides img {
+  padding-top: 5vw;
+   padding-left: 33vw;
+   width: 5vw; 
+}
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: rgb(41, 40, 40);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    display: none;
+  }
+
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(235, 235, 235, 0.8);
+    display: none;
+  }
+
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active,
+  .dot:hover {
+    background-color: #717171;
+  }
+
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  .slideshow-container p {
+    line-height: 7vw;
+    text-align: center;
+    font-size: 5vw;
+  }
+ 
+  /* .........................................eight............................. */
+  #eight {
+    height: auto;
+  }
+  #footer1 {
+    display: flex;
+    flex-direction: column;
+    color: #5a5959e5;
+    padding-left: 1vw;
+    padding-right: 5vw;
+    padding-top: 5vw;
+  }
+  #footer1 .foot input {
+    border: #2c2b2b;
+    padding: 1vw;
+    background-color: #2c2b2b;
+
+    text-decoration: none;
+  }
+
+  .foot {
+    padding: 3vw;
+    line-height: 3vw;
+  }
+  .foot img {
+    width: 40vw;
+  }
+  .foot h2 {
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+    color: #242868;
+    font-size: 6vw;
+  }
+  .foot h1 {
+    color: #5e85cc;
+    padding-top: 12vw;
+    padding-bottom: 5vw;
+    font-size: 7vw;
+  }
+  .foot p {
+    padding-top: 7vw;
+    align-items: center;
+    font-size: 4.5vw;
+    line-height: 5vw;
+  }
+  .foot button {
+    margin-top: 15vw;
+    padding: 1vw;
+    border-radius: 100vw;
+    border: none;
+    color: #6184f5;
+    margin-right: 1vw;
+  }
+  .foot button i {
+    font-size: 7vw;
+  }
+  .foot button:hover {
+    background-color: #6184f5;
+    color: #fff;
+  }
+  #footer2 {
+    color: #5a5959e5;
+    margin-top: 10vw;
+    justify-content: space-between;
+  }
+  #footer2 p {
+    padding-left: 10vw;
+    font-size: 4vw;
+  }
+  #footer2 i {
+    width: 8vw;
+    height: 8vw;
+    background-color: #5e85cc;
+    border-radius: 100vw;
+
+    font-size: 7vw;
+    color: #fff;
+  }
+  .footing {
+    padding-top: 2vw;
+    background-image: url(images/company-bg.png.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+
+    padding: 1vw;
+  }
+
+  .footing i {
+    margin: 5vw;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
+}
+@media   (min-width: 576px) and  (max-width: 990px){
+  .dropdown .dropbtn {
+    color: rgb(255, 253, 253);
+    padding-left: 3vw;
+    padding-right: 15vw;
+    font-size: 5vw;
+    padding-bottom: 0vw;
+  }
+  .dropdown :hover {
+    background-color: #8f8c8cd5;
+    width: 90vw;
+    padding-left: 0vw;
+    margin-left: 2vw;
+  }
+
+  .dropdown {
+    width: 90vw;
+    position: relative;
+   
+    overflow: hidden;
+  }
+
+  .dropdown-content {
+    display: none;
+font-size: 15vw;
+    background-color: #6ba2f3;
+    color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+   
+  }
+
+  .dropdown-content a {
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    color: #faf9f9;
+    display: none;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: none;
+  }
+
+  .head1 ul {
+    position: absolute;
+    flex-direction: column;
+    color: white;
+    top: 11vw;
+width: 98vw;
+    right: 0vw;
+    background-color: #717171;
+    gap: 0;
+    
+    
+    
+  }
+  .head1 ul li {
+    overflow: hidden;
+  }
+  .head1 ul li a {
+    font-size: 2vw;
+    line-height: 2vw;
+    color: white;
+    padding-left: 0vw;
+    padding-bottom: 1vw;
+  }
+  .head1 ul li a:hover {
+    background-color: #8f8c8cd5;
+    width: 90vw;
+    padding-left: 2vw;
+  }
+  .navIcon {
+    
+    transition: all 0.5s;
+  }
+  .dropdown .dropdown-content {
+    display: none;
+  }
+  .chkbtn {
+    margin-left: 80vw;
+    margin-top: 1vw;
+    background-color: #2c2b2b;
+    
+    display: block;
+    width: 10vw;
+    padding: 2vw;
+    color: white;
+  }
+
+  #hero {
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+  }
+  .head1 {
+    display: flex;
+    padding-left: 1vw;
+    margin-right: 9.5vw;
+    padding-top: 2vw;
+    margin-left: 3vw;
+  }
+  .head1 p {
+    padding-top: 1.3vw;
+    gap: 30px;
+    color: rgb(7, 29, 82);
+    padding-left: 3vw;
+    font-size: 1.5vw;
+    display: none;
+  }
+  .head1 a {
+    text-decoration: none;
+    color: rgb(7, 29, 82);
+  }
+  .head1 p :hover {
+    color: #3c44b9;
+  }
+  li {
+    display: flex;
+  }
+  .head1 img {
+    padding-top: 2vw;
+    padding-bottom: 3vw;
+    width: 100%;
+    height: 6vh;
+  }
+  .head2 {
+    display: flex;
+    padding-left: 3vw;
+  }
+  .head2 img {
+    padding-top: 2vw;
+    width: 2vw;
+    height: 2vw;
+    padding-bottom: 2vw;
+    padding-right: 1vw;
+    border-right: 2px solid rgb(201, 196, 196);
+    display: none;
+  }
+  .head2 h4 {
+    display: none;
+  }
+  .head3 {
+    display: none;
+  }
+  #poster {
+  background-image: url(images/single_blog_4.png.webp);
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+}
+#heading {
+  padding-top: 22vw;
+  padding-left: 14vw;
+}
+#heading h1 {
+  line-height: 1;
+  font-weight: 900;
+  font-size: 7vw;
+  color: white;
+}
+/* .....................second........................... */
+  #second {
+  height: auto;
+}
+#second button {
+  margin-top: 10vw;
+  border-radius: 20vw;
+  padding: 1vw 2vw;
+  margin-left: 40vw;
+  font-size: 2vw;
+  color: rgb(95, 131, 250);
+    background-color: #9fb8df;
+    border: none;
+}
+#second h1 {
+  padding-top: 3vw;
+  margin-left: 30vw;
+  font-size: 4vw;
+  color: rgb(30, 46, 99);
+}
+.cards {
+  
+  
+  display: flex;
+  flex-direction: row;
+flex-wrap: wrap;
+  padding: 3vw;
+
+  border-bottom: 2px solid rgb(201, 196, 196);
+}
+.card {
+
+  width: 35vw;
+  padding: 5vw;
+}
+.card img {
+ width: 10vw;
+  padding-bottom: 3vw;
+  padding-left: 12vw;
+}
+.card h3 {
+  color: rgb(30, 46, 99);
+  font-size: 3vw;
+  padding-bottom: 0vw;
+  justify-content: center;
+  text-align: center;
+}
+.card p {
+  line-height: 3vw;
+  color: rgb(90, 89, 89);
+  justify-content: center;
+  text-align: center;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-top: 2vw;
+  font-size: 2vw;
+}
+/* .....................third...................... */
+#third {
+  height: auto;
+}
+#third button {
+  font-size: 2vw;
+  margin-top: 6vw;
+  border-radius: 20vw;
+  border: none;
+  padding: 1vw 2vw;
+  color: rgb(128, 148, 204);
+  margin-left: 43vw;
+}
+#third h1 {
+  padding-top: 3vw;
+  margin-left: 35vw;
+  font-size: 4vw;
+  color: rgb(30, 46, 99);
+}
+.pictures {
+  display: flex;
+  flex-direction: column;
+  margin: 8vw;
+  padding: 4vw;
+}
+.pic1 {
+  display: flex;
+}
+.pic1 img {
+  width: 35vw;
+  height: 55vh;
+}
+
+.pic2 {
+  margin-right: 4.5vw;
+  background-color: #6184f5;
+  display: flex;
+  flex-direction: row-reverse;
+ 
+}
+.pic2 img {
+  width: 35vw;
+height: 55vh;
+}
+
+.img2 {
+ 
+  height: 55vh;
+  width: 35vw;
+ 
+}
+.img2 img{
+  width: 35vw;
+  height: 7vh;
+}
+.pictures .piccard {
+}
+.piccard img {
+  width: 8vw;
+  height: 8vw;
+
+  margin-left: 12vw;
+  margin-top: 2vw;
+}
+.piccard h3 {
+  color: rgb(247, 248, 250);
+  font-size: 3vw;
+  margin-top: 1vw;
+  margin-left: 8vw;
+}
+.piccard p {
+  font-size: 2vw;
+  line-height: 2.5vw;
+  color: rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-top: 2vw;
+  padding-bottom: 1vw;
+}
+/* ...................................fourth............................................ */
+
+#fourth {
+  height: auto;
+  border-bottom: 2px solid rgb(201, 196, 196);
+  margin: 6vw;
+}
+#add {
+  margin: 6vw;
+  display: flex;
+  margin-bottom: 5vw;
+  background-color: rgb(21, 20, 61);
+  height: 40vh;
+  width: 70vw;
+}
+#add h1 {
+  color: #fff;
+  padding-top: 5vw;
+  padding-left: 4vw;
+  font-size: 4vw;
+}
+#add p {
+  color: #fff;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  padding-top: 3vw;
+  font-size: 2vw;
+}
+#add button {
+  display: flex;
+  width: 25vw;
+  height: 6vw;
+  border-radius: 10vw;
+  margin-left: 2vw;
+  margin-right: 5vw;
+  margin-top: 10vw;
+  background-color: rgb(142, 160, 236);
+  color: #fff;
+}
+#add button img {
+  padding-top: 1.5vw;
+  padding-left: 2vw;
+  width: 3vw;
+  height: 3vw;
+}
+#add button p {
+  padding: 2vw;
+  margin-bottom: 5vw;
+  font-size: 1.5vw;
+}
+
+/* ................................................slideshow.................................. */
+.istimg{
+  display: flex;
+  flex-direction: row;
+  padding-top: 3vw;
+  padding-left: 38vw;
+  padding-bottom: 1vw;
+  color: rgb(248, 184, 88);
+  font-size: 2vw;
+}
+.mySlides {
+  display: none;
+ 
+  justify-content: center;
+
+
+}
+.slideshow-container .mySlides img {
+    padding-left: 35vw;  
+   padding-bottom: 1vw;
+   
+}
+.slideshow-container {
+  
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: rgb(41, 40, 40);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(235, 235, 235, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+.slideshow-container p {
+  line-height: 3vw;
+  text-align: center;
+  font-size: 2vw;
+}
+/* .........................................eight............................. */
+#eight {
+  height: auto;
+}
+#footer1 {
+  display: flex;
+  color: #5a5959e5;
+ padding-left: 2vw;
+ padding-right: 5vw;
+ padding-top: 5vw;
+ padding-bottom: 5vw;
+}
+#footer1 .foot input {
+  border: #2c2b2b;
+  padding: 1vw;
+  background-color: #2c2b2b;
+
+  text-decoration: none;
+}
+
+.foot {
+  padding: 4vw;
+  line-height: 3vw;
+}
+.foot img{
+  width: 18vw;
+   padding-bottom: 4vw;
+}
+.foot h2 {
+  color: #242868;
+  font-size: 3vw;
+  padding-bottom: 4vw;
+}
+.foot h1 {
+  color: #5e85cc;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  font-size: 2.5vw;
+}
+.foot p {
+  align-items: center;
+  font-size: 1.8vw;
+  padding: .5vw;
+}
+.foot button {
+  margin-top: 2vw;
+  padding: 0.5vw;
+  border-radius: 2vw;
+  border: none;
+  color: #6184f5;
+  margin-right: 1vw;
+}
+.foot button i {
+  font-size: 3vw;
+}
+.foot button:hover {
+  background-color: #6184f5;
+  color: #fff;
+}
+#footer2 {
+  color: #5a5959e5;
+}
+#footer2 p {
+  /* position: absolute;
+
+bottom: -419vw; */
+
+  padding-left: 20vw;
+  font-size: 2vw;
+}
+#footer2 i {
+  width: 2vw;
+  height: 2vw;
+  background-color: #5e85cc;
+  border-radius: 2vw;
+  padding: 1vw;
+  font-size: 2vw;
+  color: #fff;
+  /* position: absolute;
+  bottom: -419vw;
+  right: 5.2vw; */
+}
+
+#footer2 #icons {
+  padding-left: 15vw;
+}
+#footer2 #icons i {
+  padding-left: 1vw;
+}
+.footing {
+  padding-top: 2vw;
+  background-image: url(images/company-bg.png.webp);
+  display: flex;
+  justify-content: space-between;
+  padding: 1vw;
+  background-position: center;
+
+  background-size: contain;
+}
+.footing i {
+  margin: 2vw;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+
+}
